@@ -58,6 +58,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     QuickAccessWallet
 
+# Themes
+PRODUCT_PACKAGES += \
+    AndroidBlackThemeOverlay
+    
 # Framework detect libs
 PRODUCT_PACKAGES += \
     libvndfwk_detect_jni.qti \
