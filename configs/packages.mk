@@ -51,7 +51,8 @@ PRODUCT_PACKAGES += \
     ThemePicker \
     AbleMusic \
     Updater \
-    Camera
+    Camera \
+    GameSpace
 
 # SystemUI plugins
 PRODUCT_PACKAGES += \
