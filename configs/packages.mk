@@ -36,7 +36,8 @@ PRODUCT_PACKAGES += \
     Updater \
     ParallelSpace \
     Aperture \
-    RepainterServicePriv
+    RepainterServicePriv \
+    GameSpace
 
 # SystemUI plugins
 PRODUCT_PACKAGES += \
