@@ -23,3 +23,9 @@ function repopick() {
     T=$(gettop)
     $T/vendor/404/build/tools/repopick.py $@
 }
+
+# Builder
+export KBUILD_BUILD_USER=clhexftw
+export KBUILD_BUILD_HOST=home
+export BUILD_USERNAME=clhexftw
+export BUILD_HOSTNAME=home
