@@ -29,6 +29,8 @@ endif
 P404_VERSION := $(P404_VERSION_MAJ).$(P404_VERSION_MIN)-$(shell date -u +%Y%m%d-%H%M%S)-$(P404_BUILDTYPE)-$(P404_BUILD)
 P404_DISPLAY_VERSION := $(P404_VERSION_MAJ).$(P404_VERSION_MIN)
 
+CUSTOM_PLATFORM_RELEASE_OR_CODENAME := 12L
+
 # Branding Props
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.404.version=$(P404_DISPLAY_VERSION) \
@@ -37,4 +39,5 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.404.display.version=$(P404_DISPLAY_VERSION) \
     ro.404.releasetype=$(P404_BUILDTYPE) \
     ro.404.build=$(P404_BUILD_NUMBER) \
+    ro.p404.settings.android_version=$(CUSTOM_PLATFORM_RELEASE_OR_CODENAME) \
     ro.caf.tag=$(shell bash vendor/404/configs/caf-tag.sh)
