@@ -123,6 +123,12 @@ ifeq ($(WITH_GAPPS),true)
     $(call inherit-product, vendor/gms/products/gms.mk)
 endif
 
+# MatlogX
+ifeq ($(TARGET_SHIP_WITH_MATLOGX),true)
+PRODUCT_PACKAGES += \
+     MatlogX
+endif
+
 # Treble
 # Enable ALLOW_MISSING_DEPENDENCIES on Vendorless Builds
 ifeq ($(BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE),)
