@@ -127,10 +127,10 @@ ifeq ($(WITH_GAPPS),true)
     $(call inherit-product, vendor/gms/products/gms.mk)
 endif
 
-# MatlogX
-ifeq ($(TARGET_SHIP_WITH_MATLOGX),true)
+# Matlog
+ifeq ($(TARGET_SHIP_WITH_MATLOG),true)
 PRODUCT_PACKAGES += \
-     MatlogX
+     MatLog
 endif
 
 # Treble
