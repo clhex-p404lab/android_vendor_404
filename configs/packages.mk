@@ -50,7 +50,8 @@ PRODUCT_PACKAGES += \
     AbleMusic \
     Updater \
     Camera \
-    RepainterServicePriv
+    RepainterServicePriv \
+    GameSpace
 
 # SystemUI plugins
 PRODUCT_PACKAGES += \
