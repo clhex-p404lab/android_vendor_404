@@ -34,6 +34,7 @@ PRODUCT_PACKAGES += \
     Covers \
     ThemePicker \
     Updater \
+    ParallelSpace \
     Aperture \
     RepainterServicePriv
 
